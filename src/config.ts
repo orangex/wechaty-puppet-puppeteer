@@ -3,7 +3,7 @@
 /// <reference path="./typings.d.ts" />
 
 import promiseRetry = require('promise-retry')
-import { WrapOptions } from 'retry'
+import { OperationOptions } from 'retry'
 
 import {
   // Brolog,
@@ -33,7 +33,7 @@ export async function retry<T> (
   const retries    = 9
   // const unref      = true
 
-  const retryOptions: WrapOptions = {
+  const retryOptions: OperationOptions = {
     factor,
     maxTimeout,
     minTimeout,

@@ -7,6 +7,7 @@
     "no-multi-spaces": false,
     "arrow-parens": false,
     "space-within-parens": false,
-    "typedef-whitespace": false
+    "typedef-whitespace": false,
+    "object-literal-sort-keys": false
   }
 }
