@@ -121,6 +121,7 @@ export class Bridge extends EventEmitter {
 
     const headless = this.options.head ? false : true
     const browser = await launch({
+      executablePath: '/usr/bin/google-chrome',
       args: [
         '--audio-output-channels=0',
         '--disable-default-apps',
